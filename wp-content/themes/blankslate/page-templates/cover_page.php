@@ -419,7 +419,7 @@ Template Name: Cover Page
 
     <script type="text/javascript">
     $(document).ready(function() {
-        alert("I am an alert box!");
+        //alert("I am an alert box!");
         $('#signup').submit(function() {
             $("#message").html("<span class='error'>Adding your email address...</span>");
             $.ajax({
