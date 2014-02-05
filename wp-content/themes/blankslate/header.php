@@ -6,7 +6,27 @@
         <title>
             <?php wp_title( ' | ', true, 'right' ); ?>
         </title>
+        
         <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
+        <!--
+        <?php
+            if ( is_page_template('cover_page.php')) { ?>
+            <link rel="stylesheet" type="text/css" href="<?php bloginfo('page-templates'); ?>/home_style.css" />
+            <?php } 
+        ?>
+        
+        <?php if ( is_page(6) ) { ?>
+            <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/home_style.css" type="text/css" media="screen" />
+            <?php } else { ?>
+            <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
+            <?php } ?>
+        
+        
+        <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen" />
+        <?php if(is_page_template('cover_page.php')) :?>
+        <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/home_style.css" media="screen" />
+        <?php endif;?>
+        -->
         <?php wp_head(); ?>
     </head>
 
