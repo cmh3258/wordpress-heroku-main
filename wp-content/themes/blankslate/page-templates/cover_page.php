@@ -401,7 +401,7 @@ Template Name: Cover Page
    -->
    
   
-    <form id="signup" action="index.html" method="get">
+    <form id="signup" action="cover_page.php" method="get">
         <input type="hidden" name="ajax" value="true" />
         <input type="text" name="fname" placeholder="First Name" id="fname" class="textinput" value="" />
         <input type="text" name="lname" placeholder="Last Name" id="lname" class="textinput" value="" />
@@ -419,11 +419,12 @@ Template Name: Cover Page
 
     <script type="text/javascript">
     $(document).ready(function() {
-        //alert("I am an alert box!");
+        alert("I am an alert box!");
         $('#signup').submit(function() {
             $("#message").html("<span class='error'>Adding your email address...</span>");
             $.ajax({
-                url: 'mcapi/inc/store-address.php', // proper url to your "store-address.php" file
+                
+                url: '<?php bloginfo('stylesheet_directory'); ?>/page-templates/mcapi/inc/store-address.php', // proper url to your "store-address.php" file
                 data: $('#signup').serialize(),
                 success: function(msg) {
                     $('#message').html(msg);
