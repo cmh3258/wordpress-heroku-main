@@ -165,7 +165,7 @@ Template Name: Cover Page
                     <li><a href="#contact">Contact Us</a></li>
                     <!--<li><a href="http://recommenublog.zzl.org/">Blog</a></li>
                     <li><a href="../?page_id=6">Blog</a></li>-->
-                    <li><a href="<?php echo get_permalink( 6 ); ?>">Blog</a></li>
+                    <li><a href="<?php echo get_permalink( 7 ); ?>">Blog</a></li>
                     
                     
                    <!-- <li id="download"><a href="#coming_soon">Download RM</a></li> -->
