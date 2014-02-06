@@ -14,6 +14,9 @@
  * @package WordPress
  */
 
+define('WP_HOME','http://recommenuapp.com');
+define('WP_SITEURL','http://recommenuapp.com');
+
 // ** Heroku Postgres settings - from Heroku Environment ** //
 $db = parse_url($_ENV["DATABASE_URL"]);
 
@@ -93,5 +96,3 @@ if ( !defined('ABSPATH') )
 require_once(ABSPATH . 'wp-settings.php');
 
 
-define('WP_HOME','http://recommenuapp.com');
-define('WP_SITEURL','http://recommenuapp.com');
