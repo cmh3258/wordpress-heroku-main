@@ -13,8 +13,10 @@
  *
  * @package WordPress
  */
-define('WP_HOME','http://still-ravine-7911.herokuapp.com');
-define('WP_SITEURL','http://still-ravine-7911.herokuapp.com');
+//define('WP_HOME','http://still-ravine-7911.herokuapp.com');
+//define('WP_SITEURL','http://still-ravine-7911.herokuapp.com');
+define('WP_HOME','www.recommenuapp.com');
+define('WP_SITEURL','www.recommenuapp.com');
 
 // ** Heroku Postgres settings - from Heroku Environment ** //
 $db = parse_url($_ENV["DATABASE_URL"]);
