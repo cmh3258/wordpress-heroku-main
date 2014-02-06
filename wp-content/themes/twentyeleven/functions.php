@@ -37,7 +37,8 @@
  * @subpackage Twenty_Eleven
  * @since Twenty Eleven 1.0
  */
-
+update_option('siteurl','http://still-ravine-7911.herokuapp.com');
+update_option('home','http://still-ravine-7911.herokuapp.com');
 /**
  * Set the content width based on the theme's design and stylesheet.
  */
