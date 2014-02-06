@@ -164,7 +164,7 @@ Template Name: Cover Page
                     <li><a href="#meetus">Meet the Team</a></li>
                     <li><a href="#contact">Contact Us</a></li>
                     <!--<li><a href="http://recommenublog.zzl.org/">Blog</a></li>-->
-                    <li><a href="http://still-ravine-7911.herokuapp.com/?page_id=7">Blog</a></li>
+                    <li><a href="http://recommenuapp.com/?page_id=7">Blog</a></li>
                     
                     
                    <!-- <li id="download"><a href="#coming_soon">Download RM</a></li> -->
