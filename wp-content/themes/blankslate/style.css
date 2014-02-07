@@ -93,16 +93,23 @@ hr{width:40em;margin-top:1em;}
 
 
 /*Main Content*/
-#content{margin:0 auto;width:60%;font-size:.8em;line-height:2.5em;margin-top:4em;padding-bottom:2em;}
+#content{margin:0 auto;width:80%;font-size:.8em;line-height:2.5em;margin-top:4em;padding-bottom:2em;float:left;margin-right:5em;}
 #content_section{padding-bottom:3em;}
 .meta{background-color:green;}
-#content h1{font-size:1.8em;text-transform:uppercase;font-family: BrandonBold;}
-#content h4{font-size:.8em;}
+#content h1{font-size:3.2em;text-transform:uppercase;font-family: BrandonBold;}
+#content h4{font-size:.9em;color:#ccc;margin: -.2em 0 1em 0;}
+#content p{line-height:2em;font-size:1.2em;margin-bottom:1.4em;}
+#content_side_wrap{width:70%;margin:0 auto;background-color:;}
+
 
 /*Sidebar*/
+#sidebar{float:left;background-color:;width:15em;margin-top:5em;}
 #primary{font-size:1em;color:#ccc;}
 #primary a{color:#ccc;padding:1em;}
 #test{color:black;line-height: 10em;margin-top:2em;}
+#sidebar ul{line-height:2em;font-size:.9em;margin-top:1em;}
+#sidebar a{text-decoration: none;}
+#sidebar a:hover{text-decoration:underline;}
 
 
 /*Footer*/
@@ -115,3 +122,9 @@ hr{width:40em;margin-top:1em;}
        transition: border-color .4s ease-in-out;}
 #footer_content a:hover{border-color:white;}
 .tab{padding-left:5em;}
+
+/*Entry*/
+#comments{float:left;background-color:#ccc;display:none;}
+#comments entry{float:right;}
+.author, .meta-sep{display:none;}
+.entry-meta{color:#ccc;}

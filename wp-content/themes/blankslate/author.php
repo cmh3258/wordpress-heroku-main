@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div id="content_side_wrap">
 <section id="content" role="main">
 <header class="header">
 <?php the_post(); ?>
@@ -10,6 +11,6 @@
 <?php get_template_part( 'entry' ); ?>
 <?php endwhile; ?>
 <?php get_template_part( 'nav', 'below' ); ?>
-</section>
+</section></div>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

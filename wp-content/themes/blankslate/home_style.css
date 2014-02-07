@@ -88,7 +88,7 @@ hr{width:80%; color: ; border: 1px dashed #ccc;margin-bottom:1em;float:left;marg
 .center{text-align:center;}
 .content{background-color:;padding:2em 0 2em;}
 
-#header_content{background-image:url('images/img_cover_new_smaller.jpg');font-size:2em;color:white;width:100%;padding:8.2em 0 8.4em;height:100%;background-size:100%;}
+#header_content{background-image:url('images/img_cover_new_smaller2.jpg');font-size:2em;color:white;width:100%;padding:8.2em 0 8.4em;height:100%;background-size:100%;}
 #header_content h3{font-size:1.6em;font-family:BrandonBold;font-weight:500;margin-left:0em;width:m}/*   #15c67c    */
 #header_content h5{margin-top:-2.3em;margin-bottom:-2.1em;font-size:;font-family:Avenir}
 .container_h{width:85%;margin: 0 auto;}
@@ -196,13 +196,13 @@ footer a, footer li{color:white;display:inline;padding:1em;margin:0 auto;text-al
 }
 @media screen and (max-width: 1150px), only screen and (max-device-width: 1150px){
     body{background-color:;}
-    #header_content{background-image:url('images/img_cover_new_smaller.jpg');font-size:2em;color:white;width:;padding:7.6em 0 7.6em;height:;background-size:35em;}
+    #header_content{background-image:url('images/img_cover_new_smaller2.jpg');font-size:2em;color:white;width:;padding:7.6em 0 7.6em;height:;background-size:35em;}
 }
 @media screen and (max-width: 1000px), only screen and (max-device-width: 1000px){
     
    body{background-color:;}
    .container{width:90%;}
-   #header_content{background-image:url('images/img_cover_new_smaller.jpg');font-size:2em;color:white;width:;padding:7.8em 0 7.8em;height:;background-size:35em;}
+   #header_content{background-image:url('images/img_cover_new_smaller2.jpg');font-size:2em;color:white;width:;padding:7.8em 0 7.8em;height:;background-size:35em;}
    nav{height:3em;}
    #main_logo{margin-top:.1em;}
    #nav_list{display:none;}
@@ -215,7 +215,7 @@ footer a, footer li{color:white;display:inline;padding:1em;margin:0 auto;text-al
 }
 @media screen and (max-width: 800px), only screen and (max-device-width: 800px){
         body{background-color:;}
-        #header_content{background-image:url('images/img_cover_new_smaller.jpg');font-size:2em;color:white;width:;padding:8.2em 0 8.2em;height:;background-size:35em;background-position:-3em}
+        #header_content{background-image:url('images/img_cover_new_smaller2.jpg');font-size:2em;color:white;width:;padding:8.2em 0 8.2em;height:;background-size:35em;background-position:-3em}
         nav{height:3em;}
         #main_logo{margin-top:.1em;}
         #nav_list{display:none;}

@@ -144,7 +144,7 @@ Template Name: Cover Page
             <div class="">
                 <div class="">
                     <!--<h1>Recommenu</h1>-->
-                    <img src="../images/logo_update.png" alt="logo" id="main_logo_small"/>
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo_update.png" alt="logo" id="main_logo_small"/>
                     <h3>A great meal, every time</h3>
                     <h5>Recommendations from the people that you trust.</h5>
                 </div>

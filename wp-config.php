@@ -13,26 +13,19 @@
  *
  * @package WordPress
  */
-//define('WP_HOME','http://still-ravine-7911.herokuapp.com');
-//define('WP_SITEURL','http://still-ravine-7911.herokuapp.com');
-//define('WP_HOME','www.recommenuapp.com');
-//define('WP_SITEURL','www.recommenuapp.com');
-
-// ** Heroku Postgres settings - from Heroku Environment ** //
-$db = parse_url($_ENV["DATABASE_URL"]);
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', trim($db["path"],"/"));
+define('DB_NAME', 'wordpress_db');
 
 /** MySQL database username */
-define('DB_USER', $db["user"]);
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', $db["pass"]);
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
-define('DB_HOST', $db["host"]);
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -49,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         getenv('AUTH_KEY'));
-define('SECURE_AUTH_KEY',  getenv('SECURE_AUTH_KEY'));
-define('LOGGED_IN_KEY',    getenv('LOGGED_IN_KEY'));
-define('NONCE_KEY',        getenv('NONCE_KEY'));
-define('AUTH_SALT',        getenv('AUTH_SALT'));
-define('SECURE_AUTH_SALT', getenv('SECURE_AUTH_SALT'));
-define('LOGGED_IN_SALT',   getenv('LOGGED_IN_SALT'));
-define('NONCE_SALT',       getenv('NONCE_SALT'));
+define('AUTH_KEY',         '=RP$@x|cUO>qs!$`,8Q6(-IbvB@U$(MHkJY5e~t]OMD 1H1`rP}T|rE!+OocSd4c');
+define('SECURE_AUTH_KEY',  'aIC.`/R*<Xc+@A qHxqUU9vGg*-{)g-Xf2L;@!RyM+2.@Kv2-j3&6xKVJgW=>{%Y');
+define('LOGGED_IN_KEY',    'fAi;6xPhMwt;tys%8+.mu<qqg:8-!+sbV90*-(::og+dX+QLn6A#]_*W<-0LN*x7');
+define('NONCE_KEY',        'l,NO#;ZZ+0nFC}-Tzqmv/{%-mussv2#1MV,VO&hK>M}=`}x[BO|HmLt2?J-MepX~');
+define('AUTH_SALT',        'B%]n-!NYmB%zcG*6<R#<:275tq)G.Hj%b3K>G|m$q`j,a<r4cORt5Sy9VQUX%(9C');
+define('SECURE_AUTH_SALT', '>r0w}0lz*X&=S&n<g}g)!N@51$[`!D Dg44@S|?)+RDu@!QNL9W}a8mKL,LJr.9=');
+define('LOGGED_IN_SALT',   '&6$YgWIL62Upo?q^1Y-~NG`f-}hY1~`7+L09Sg,mqJ.U$DbPYss,66wJf[yzW5K|');
+define('NONCE_SALT',       'e~@f]?^I>o*|;^$Z{aq]s1v?HXUu3Y|@Ht$?Z>4=-u%)FUOTLmb=AR!9lw1F S($');
 
 /**#@-*/
 
@@ -66,7 +59,7 @@ define('NONCE_SALT',       getenv('NONCE_SALT'));
  * You can have multiple installations in one database if you give each a unique
  * prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'wp_github';
 
 /**
  * WordPress Localized Language, defaults to English.
@@ -95,5 +88,3 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
-
-
