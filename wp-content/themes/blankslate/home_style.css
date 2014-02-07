@@ -118,16 +118,16 @@ p{line-height:1.6em;}
 #icon_feature{width:2em;float:left;padding-right:.5em;}
 #desc_feat{margin-top:-1.2em;}
 #mailing_list_background{background-image:url('images/low_contrast_linen.png');padding:2em 0 2em;}
-#mailing_list_content{text-align:left;color:white;width:;margin: 0 auto;background-color:;font-weight:100;}
+#mailing_list_content{text-align:center;color:white;width:;margin: 0 auto;background-color:;font-weight:100;}
 mailing_list_background h3{}
 #form_email{background-color:;}
 /*
 input{float:;padding:1em;background-color:;width:70%;margin: 0;font-family:Avenir;font-size:1em;text-align:right;}
 */
-input{width:90%;display:block;padding:1em;font-family:Lato;margin-top:1em;font-size:1em;  }
+input{margin: 0 auto;width:100%;display:block;padding:1em;font-family:Lato;margin-top:1em;font-size:1em;}
 #message{color:white;}
 #table_interest{width:100%;}
-#submit_button_2, #SendButton{float:;margin-left:0em;width:10em;
+#submit_button_2, #SendButton{margin:0 auto; margin-top:1em;width:10em;
         border-top:		1px solid #a3ceda;
         border-left:		1px solid #a3ceda;
 	border-right:		1px solid #4f6267;
@@ -144,7 +144,13 @@ input{width:90%;display:block;padding:1em;font-family:Lato;margin-top:1em;font-s
   -o-transition: background-color .2s ease-in-out;
   transition: background-color .2s ease-in-out;
 }
-
+#sign_up_form{background-color:;margin:0 auto;}
+#sign_up_form tr{width:100%;}
+#sign_up_form td{background-color:;padding:0 3em 0em 0;}
+/*
+#lname{width:90%;padding-left:em;margin-left:1em;}
+#fname{width:90%;padding-left:em;}
+*/
 #desc_title2{margin-top:-2.4em;margin-bottom:2em;font-family:BrandonReg;font-weight:300;font-size:1.1em;opacity:.8;}
 
 #company_table_small, #contact_mobile, #bottom_navigation, #company_section_small, #main_logo_small, #table_feature_small, #table_interest_small{display:none}
@@ -244,7 +250,7 @@ footer a, footer li{color:white;display:inline;padding:1em;margin:0 auto;text-al
     .info{background-color:;width:100%;padding:2em 0 2em;}
     .content{background-color:;padding:0;margin:0;width:100%;}
     .center{margin:0;background-color:;padding:0;}
-    
+    #mailing_list_content h3{font-size:2em;}
    
     #table_interest{width:100%;background-color:rosybrown;}
     /*

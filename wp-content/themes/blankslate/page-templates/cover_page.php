@@ -404,16 +404,35 @@ Template Name: Cover Page
   
     <form id="signup" action="cover_page.php" method="get">
         <input type="hidden" name="ajax" value="true" />
-        <input type="text" name="fname" placeholder="First Name" id="fname" class="textinput" value="" />
-        <input type="text" name="lname" placeholder="Last Name" id="lname" class="textinput" value="" />
-        <input type="email" name="email" placeholder="Email" id="email" class="textinput" value="" />
-        <input type="text" name="cname" id="cname" placeholder="City" class="textinput" value="" />
-        <!--
-        HTML: <input type="radio" name="emailtype" value="html" checked="checked">
-        Text: <input type="radio" name="emailtype" value="text">
-        -->
-        
-        <input type="submit" id="SendButton" name="submit" class="textinput" value="Submit" />
+        <table id="sign_up_form">
+            <tr>
+                <td>
+                    <input type="text" name="fname" placeholder="First Name" id="fname" class="textinput" value="" />
+                </td>
+                <td>
+                    <input type="text" name="lname" placeholder="Last Name" id="lname" class="textinput" value="" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="email" name="email" placeholder="Email" id="email" class="textinput" value="" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" name="cname" id="cname" placeholder="City" class="textinput" value="" />
+                </td>
+            </tr>
+            <!--
+            HTML: <input type="radio" name="emailtype" value="html" checked="checked">
+            Text: <input type="radio" name="emailtype" value="text">
+            -->
+            <tr>
+                <td colspan="2">
+                    <input type="submit" id="SendButton" name="submit" class="textinput" value="Submit" />
+                </td>
+            </tr>
+        </table>
     </form>
     <div id="message"></div>
 
