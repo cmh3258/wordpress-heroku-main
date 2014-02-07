@@ -1,0 +1,284 @@
+/* line 6, ../sass/_tables.sass */
+#leadin .top_table_controls {
+  border-bottom: 2px solid #dedede;
+  margin: 18px 0;
+  margin-bottom: 16px;
+  *zoom: 1;
+}
+/* line 38, ../../../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+#leadin .top_table_controls:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 12, ../sass/_tables.sass */
+#leadin .table_segment_picker {
+  float: left;
+  margin: 0;
+}
+/* line 16, ../sass/_tables.sass */
+#leadin .table_segment_picker li {
+  display: inline-block;
+  margin: 0;
+}
+/* line 20, ../sass/_tables.sass */
+#leadin .table_segment_picker li + li {
+  margin-left: 2em;
+}
+/* line 22, ../sass/_tables.sass */
+#leadin .table_segment_picker li a {
+  display: block;
+  padding: 12px 0;
+  line-height: 24px;
+  font-weight: 300;
+  font-size: 20px;
+  text-decoration: none;
+}
+/* line 30, ../sass/_tables.sass */
+#leadin .table_segment_picker li a.current {
+  margin-bottom: -2px;
+  font-weight: 400;
+  border-bottom: 2px solid #f66000;
+}
+/* line 35, ../sass/_tables.sass */
+#leadin .table_segment_picker li a.current, #leadin .table_segment_picker li a:hover, #leadin .table_segment_picker li a:active {
+  color: #f66000;
+}
+/* line 38, ../sass/_tables.sass */
+#leadin .table_search {
+  float: right;
+  padding: 10px 0;
+  padding-bottom: 9px;
+}
+/* line 44, ../sass/_tables.sass */
+#leadin table .leadin-contact-avatar {
+  float: left;
+}
+/* line 48, ../sass/_tables.sass */
+#leadin.pre-mp6 .table_search {
+  float: right;
+  padding: 12px 0;
+  padding-bottom: 11px;
+}
+/* line 53, ../sass/_tables.sass */
+#leadin.pre-mp6 table {
+  background-color: white;
+  border-color: #dedede;
+}
+/* line 59, ../sass/_tables.sass */
+#leadin.pre-mp6 table tr.alternate {
+  background-color: white;
+}
+/* line 62, ../sass/_tables.sass */
+#leadin.pre-mp6 table th, #leadin.pre-mp6 table td {
+  border-top: 0;
+  padding: 12px 6px 11px;
+}
+/* line 66, ../sass/_tables.sass */
+#leadin.pre-mp6 table th a, #leadin.pre-mp6 table td a {
+  padding: 0;
+}
+/* line 69, ../sass/_tables.sass */
+#leadin.pre-mp6 table th[scope="col"] {
+  background: #eeeeee;
+  font-family: sans-serif;
+  font-size: 12px;
+  text-shadow: none;
+}
+/* line 75, ../sass/_tables.sass */
+#leadin.pre-mp6 table td {
+  border-color: #dedede;
+  line-height: 18px;
+  font-size: 14px;
+}
+/* line 80, ../sass/_tables.sass */
+#leadin.pre-mp6 table td .row-actions {
+  float: left;
+}
+
+/* line 10, ../sass/leadin-admin.sass */
+#leadin label {
+  cursor: default;
+}
+/* line 13, ../sass/leadin-admin.sass */
+#leadin .col-wrap {
+  padding: 0 14px 0 0;
+}
+
+/* line 1, ../sass/_settings_page.sass */
+#icon-leadin {
+  background: url("../../images/leadin-icon-32x32.png") top center no-repeat;
+}
+
+/* line 4, ../sass/_settings_page.sass */
+.help-notification {
+  background: #d9edf7;
+  border: 1px solid #bce8f1;
+  padding: 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 12, ../sass/_settings_page.sass */
+li.toplevel_page_leadin_leads .wp-menu-image img {
+  width: 16px;
+  height: 16px;
+}
+
+/* line 16, ../sass/_settings_page.sass */
+.leadin-contact-avatar {
+  margin-right: 10px;
+}
+
+/* line 5, ../sass/_contacts_list_page.sass */
+#leadin-contacts th#visits, #leadin-contacts th#pageviews, #leadin-contacts th#submissions {
+  width: 8%;
+}
+/* line 8, ../sass/_contacts_list_page.sass */
+#leadin-contacts th#status, #leadin-contacts th#last_visit, #leadin-contacts th#date {
+  width: 10%;
+}
+
+/* line 3, ../sass/_contact_detail_page.sass */
+#leadin .header-wrap {
+  *zoom: 1;
+  padding: 9px 15px 4px 0;
+}
+/* line 38, ../../../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+#leadin .header-wrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 7, ../sass/_contact_detail_page.sass */
+#leadin .header-wrap h1, #leadin .header-wrap img {
+  float: left;
+}
+/* line 10, ../sass/_contact_detail_page.sass */
+#leadin .header-wrap h1 {
+  padding: 0 0 0 10px;
+  margin: 0;
+}
+/* line 14, ../sass/_contact_detail_page.sass */
+#leadin .contact-name {
+  line-height: 40px;
+}
+/* line 19, ../sass/_contact_detail_page.sass */
+#leadin .contact-info label {
+  font-weight: bold;
+  line-height: 1;
+  cursor: default;
+}
+/* line 24, ../sass/_contact_detail_page.sass */
+#leadin .contact-history {
+  padding-left: 20px;
+  margin-left: 20px;
+  border-left: 2px solid #dedede;
+}
+/* line 31, ../sass/_contact_detail_page.sass */
+#leadin .contact-history .session + .session {
+  margin-top: 30px;
+}
+/* line 34, ../sass/_contact_detail_page.sass */
+#leadin .contact-history .session-date {
+  position: relative;
+}
+/* line 37, ../sass/_contact_detail_page.sass */
+#leadin .contact-history .session-date:before {
+  content: "\2022";
+  font-size: 32px;
+  line-height: 0;
+  height: 31px;
+  width: 31px;
+  position: absolute;
+  left: -27px;
+  top: 9px;
+  color: #dedede;
+}
+/* line 48, ../sass/_contact_detail_page.sass */
+#leadin .contact-history .events {
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+/* line 51, ../sass/_contact_detail_page.sass */
+#leadin .contact-history .event {
+  margin: 0;
+  border-top: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+/* line 58, ../sass/_contact_detail_page.sass */
+#leadin .contact-history .event:last-child {
+  border-bottom: 1px solid #eeeeee;
+}
+/* line 61, ../sass/_contact_detail_page.sass */
+#leadin .contact-history .event.visit {
+  border-color: #a7cfeb;
+}
+/* line 64, ../sass/_contact_detail_page.sass */
+#leadin .contact-history .event.visit .event-title {
+  background-color: #e5f1f9;
+  color: #2288cc;
+  border-color: #a7cfeb;
+}
+/* line 69, ../sass/_contact_detail_page.sass */
+#leadin .contact-history .event.form-submission {
+  border-color: #fbbf99;
+}
+/* line 72, ../sass/_contact_detail_page.sass */
+#leadin .contact-history .event.form-submission .event-title {
+  background-color: #ffefe6;
+  color: #f6601d;
+  border-color: #fbbf99;
+}
+/* line 77, ../sass/_contact_detail_page.sass */
+#leadin .contact-history .event-time-range {
+  float: right;
+  font-weight: 400;
+}
+/* line 81, ../sass/_contact_detail_page.sass */
+#leadin .contact-history .event-title {
+  border-bottom: 1px solid #eeeeee;
+}
+/* line 84, ../sass/_contact_detail_page.sass */
+#leadin .contact-history .event-title .event-time-range {
+  font-size: 0.85em;
+}
+/* line 88, ../sass/_contact_detail_page.sass */
+#leadin .contact-history .event-title, #leadin .contact-history .event-detail {
+  margin: 0;
+  padding: 10px 20px;
+}
+/* line 92, ../sass/_contact_detail_page.sass */
+#leadin .contact-history .event-detail {
+  background-color: white;
+}
+/* line 95, ../sass/_contact_detail_page.sass */
+#leadin .contact-history .event-detail li + li {
+  padding-top: 6px;
+  border-top: 1px solid #eeeeee;
+}
+/* line 100, ../sass/_contact_detail_page.sass */
+#leadin .contact-history .visit-source p {
+  margin: 0;
+  color: #2288cc;
+}
+/* line 104, ../sass/_contact_detail_page.sass */
+#leadin .contact-history .pageview-url {
+  margin: 0;
+  color: #cccccc;
+}
+/* line 108, ../sass/_contact_detail_page.sass */
+#leadin .contact-history .field-label {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #999999;
+  margin-bottom: 6px;
+  font-size: 0.9em;
+}
+/* line 115, ../sass/_contact_detail_page.sass */
+#leadin .contact-history .field-value {
+  margin: 0;
+}
